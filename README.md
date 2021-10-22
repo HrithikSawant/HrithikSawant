@@ -2,11 +2,15 @@
 
 ## 👨‍💻 About Me
 
-My name is **Hrithik Sawant** & I am pursuing my 🔭 Bachelor of Science in Computer Science (B.Sc. CS) From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesascs.edu.in/) . I am a **FullStack Web Developer** & passionate about **Open Source** .👯 I’m looking to collaborate on community projects! . I enjoy learning new things .
+My name is **Hrithik Sawant** & I am pursuing my 🔭 Bachelor of Science in Computer Science (B.Sc. CS)
+From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesascs.edu.in/) .
+I am a **FullStack Web Developer** & passionate about **Open Source** .
+👯 I’m looking to collaborate on **community projects!** .
+🌱 I enjoy learning new things .
 <!-- 
 -  I’m currently Student 
 - working on 
-- 🌱 I’m currently learning....
+-  I’m currently learning....
 
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
@@ -15,4 +19,9 @@ My name is **Hrithik Sawant** & I am pursuing my 🔭 Bachelor of Science in Com
 - ⚡ Fun fact: ...
 -->
 
-.
+## 📈 Stats
+<p align="center">
+  
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HrithikSawant&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HrithikSawant&theme=tokyonight" />
+</p>
