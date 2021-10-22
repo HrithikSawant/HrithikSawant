@@ -7,17 +7,6 @@ From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesas
 👨‍💻 I am a **FullStack Web Developer** & passionate about **Open Source** .<br />
 👯 I’m looking to collaborate on **community projects!** . <br />
 🌱 I enjoy learning new things & currently Exploring **Spring Framework**.
-<!-- 
--  I’m currently Student 
-- working on 
--  I’m currently learning....
-
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: ...
--->
 
 ## 📈 Stats
 <p align="center">
