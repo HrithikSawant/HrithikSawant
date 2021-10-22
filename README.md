@@ -25,3 +25,7 @@ I am a **FullStack Web Developer** & passionate about **Open Source** .
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HrithikSawant&show_icons=true&theme=tokyonight" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HrithikSawant&theme=tokyonight" />
 </p>
+
+<br />
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=HrithikSawant.HrithikSawant)
