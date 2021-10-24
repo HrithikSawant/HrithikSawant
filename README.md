@@ -34,13 +34,11 @@ From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesas
   
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HrithikSawant&show_icons=true&theme=tokyonight" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HrithikSawant&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HrithikSawant&layout=compact&theme=buefy&hide_border=true" />
+  
 </p>
 
 <br />
-<p align="center">
-  
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username={HrithikSawant}" />
-</p>
 
 
 
