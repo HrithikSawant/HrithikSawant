@@ -37,7 +37,11 @@ From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesas
 </p>
 
 <br />
+<p align="center">
+  
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username={HrithikSawant}" />
+</p>
 
-https://github-readme-stats.vercel.app/api/top-langs/?username={HrithikSawant}
+
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=HrithikSawant.HrithikSawant)
