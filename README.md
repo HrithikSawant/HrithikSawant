@@ -12,11 +12,16 @@ From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![MYSQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![JQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+
 ![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VISUAL STUDIO CODE](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![VISUAL STUDIO](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![ECLIPSE](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![Netbeans](https://img.shields.io/badge/Netbeans-2C2255?style=for-the-badge&logo=Netbeans&logoColor=white)
 ![Intellij](https://img.shields.io/badge/Intellij-2C2255?style=for-the-badge&logo=Intellij&logoColor=white)
@@ -32,5 +37,7 @@ From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesas
 </p>
 
 <br />
+
+https://github-readme-stats.vercel.app/api/top-langs/?username={HrithikSawant}
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=HrithikSawant.HrithikSawant)
