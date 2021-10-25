@@ -22,10 +22,10 @@ From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesas
 ![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VISUAL STUDIO CODE](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![VISUAL STUDIO](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
-![ECLIPSE](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+<!-- ![ECLIPSE](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![Netbeans](https://img.shields.io/badge/Netbeans-2C2255?style=for-the-badge&logo=Netbeans&logoColor=white)
 ![Intellij](https://img.shields.io/badge/Intellij-2C2255?style=for-the-badge&logo=Intellij&logoColor=white)
-
+ -->
 
 ---
 
