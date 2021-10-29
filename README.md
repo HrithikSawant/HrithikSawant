@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About Me
 
-My name is **Hrithik Sawant** & I am pursuing my 🔭 Bachelor of Science in Computer Science (B.Sc. CS) <br />
+My name is **Hrithik Sawant** & I am pursuing my Bachelor of Science in Computer Science (B.Sc. CS) <br />
 From [SIES COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS)](http://www.siesascs.edu.in/) . <br />
 👨‍💻 I am a **FullStack Web Developer** & passionate about **Open Source** .<br />
 👯 I’m looking to collaborate on **community projects!** . <br />
