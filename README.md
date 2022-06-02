@@ -1,4 +1,4 @@
-## Hey <img src="https://github.com/HrithikSawant/HrithikSawant/blob/main/Assets/Hi.gif" width="29px">,  I'm Hrithik!
+## Hey <img src="https://github.com/HrithikSawant/HrithikSawant/blob/main/Assets/Hi.gif" width="20px">,  I'm Hrithik!
 
 ## 👨‍💻 About Me
 
