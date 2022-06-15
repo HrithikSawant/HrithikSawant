@@ -1,5 +1,5 @@
-## Hey <img src="https://github.com/HrithikSawant/HrithikSawant/blob/main/Assets/Hi.gif" width="20px">,  I'm Hrithik!
-
+## Hey  👋,  I'm Hrithik!
+wave
 ## 👨‍💻 About Me
 
 My name is **Hrithik Sawant** & I am a student at [SIES COLLEGE OF ARTS, SCIENCE, AND COMMERCE (AUTONOMOUS)](http://www.siesascs.edu.in/) . <br />
