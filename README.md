@@ -6,15 +6,13 @@
 
 ### Glad to see you here! &nbsp; ![visitors](https://visitor-badge.laobi.icu/badge?page_id=HrithikSawant.HrithikSawant)
 
-
-
 ## 👨‍💻 About Me
 I'm a graduate in **Computer Science** 🎓 from [SIES COLLEGE OF ARTS, SCIENCE, AND COMMERCE (AUTONOMOUS)](http://www.siesascs.edu.in/). <br />
 - 🔭 &nbsp; I’m currently working at [One2n Consulting](https://one2n.in/). <br />
 - 🏛 &nbsp; I'm a passionate learner who's always willing to learn and work across technologies and domains.<br />
 - ✨ &nbsp; I love to explore new technologies and leverage them to solve real-life problems.<br />
 - 👯 &nbsp; I'm looking for opportunities to work on **community projects**. <br />
-- 🌱 &nbsp; Currently exploring **Linux and Bash Scripting**.
+- 🌱 &nbsp; Currently wrestling with **Linux and Bash Scripting**.
 - 📝 &nbsp; Checkout my [Resume]().
 
 ## 🛠 Skills
@@ -35,8 +33,8 @@ I'm a graduate in **Computer Science** 🎓 from [SIES COLLEGE OF ARTS, SCIENCE,
 ![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![JQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-<!-- ![Adafruit](https://img.shields.io/static/v1?style=for-the-badge&message=Adafruit&color=000000&logo=Adafruit&logoColor=FFFFFF&label=)
--->
+![Adafruit](https://img.shields.io/static/v1?style=for-the-badge&message=Adafruit&color=000000&logo=Adafruit&logoColor=FFFFFF&label=)
+
 ### Tools
 ![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Intellij](https://img.shields.io/badge/Intellij-2C2255?style=for-the-badge&logo=Intellij&logoColor=white)
@@ -56,9 +54,9 @@ I'm a graduate in **Computer Science** 🎓 from [SIES COLLEGE OF ARTS, SCIENCE,
 ## 📈 Stats
 <p align="center">
 
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HrithikSawant&show_icons=true&theme=tokyonight"  alt="Github stats"/>
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HrithikSawant&theme=tokyonight"  alt="Github steaks"/>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HrithikSawant&layout=compact&theme=tokyonight"  alt="most used languages"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=HrithikSawant&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=HrithikSawant&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HrithikSawant&layout=compact&theme=tokyonight" />
 
 </p>
 <a href="https://github.com/Kevin-Menezes/github-readme-activity-graph"><img alt="Hrithik Sawant" src="https://activity-graph.herokuapp.com/graph?username=HrithikSawant&bg_color=0D1127&color=86EFAC&line=86EFAC&point=FFFFFF&hide_border=true" /></a> 
