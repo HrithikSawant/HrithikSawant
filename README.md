@@ -8,7 +8,6 @@
 
 ## 👨‍💻 About Me
 I'm a graduate in **Computer Science** 🎓 from [SIES COLLEGE OF ARTS, SCIENCE, AND COMMERCE (AUTONOMOUS)](http://www.siesascs.edu.in/). <br />
-- 🔭 &nbsp; I’m currently working at [One2n Consulting](https://one2n.in/). <br />
 - 🏛 &nbsp; I'm a passionate learner who's always willing to learn and work across technologies and domains.<br />
 - ✨ &nbsp; I love to explore new technologies and leverage them to solve real-life problems.<br />
 - 👯 &nbsp; I'm looking for opportunities to work on **community projects**. <br />
