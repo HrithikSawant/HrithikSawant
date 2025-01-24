@@ -12,7 +12,6 @@ I'm a graduate in **Computer Science** 🎓 from [SIES COLLEGE OF ARTS, SCIENCE,
 - ✨ &nbsp; I love to explore new technologies and leverage them to solve real-life problems.<br />
 - 👯 &nbsp; I'm looking for opportunities to work on **community projects**. <br />
 - 🌱 &nbsp; Currently wrestling with **Linux and Bash Scripting**.
-- 📝 &nbsp; Checkout my [Resume]().
 
 ## 🛠 Skills
 
