@@ -10,7 +10,6 @@
 
 ### 🚀 I’m a **Tech Explorer and Software Engineer! Trying to get fit**
 
-- 🎓 **Master’s in Computer Science** from [SIES College of Arts, Science, and Commerce](http://www.siesascs.edu.in/), affiliated with the [University of Mumbai](https://mu.ac.in/). 
 - 🌱 Currently diving into **Cloud Computing** and **Kubernetes**.
 - 🛠 Passionate about crafting **distributed systems** and **Product Engineering**.
 - ✨ Practitioner of **DevOps principles** and **Automation** to enhance developer workflows.
