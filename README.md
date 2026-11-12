@@ -1,75 +1,105 @@
-# Hey 👋, I'm [Hrithik!](https://github.com/HrithikSawant/)
+<div align="center">
+
+# Hrithik Sawant
+
+### DevOps / Site Reliability Engineer
+
+Mumbai, India · open to remote
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/hrithik-sawant-740a46183)
 [![Website](https://img.shields.io/badge/Website-hrithiksawant.github.io-0A66C2.svg?style=for-the-badge&logo=githubpages&logoColor=white)](https://hrithiksawant.github.io)
 [![Devpost](https://img.shields.io/badge/Devpost-%23003E54.svg?style=for-the-badge&logo=devpost&logoColor=white)](https://devpost.com/HrithikSawant)
 [![X (Twitter)](https://img.shields.io/badge/X-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Hrithiks_)
 
-## 🌟 Glad to see you here! &nbsp; ![visitors](https://visitor-badge.laobi.icu/badge?page_id=HrithikSawant.HrithikSawant)
+</div>
 
-## 👨‍💻 About Me
+<br>
 
-### 🚀 I’m a **Tech Explorer and Software Engineer! Trying to get fit**
+I build and operate the infrastructure that keeps data pipelines reliable: Kafka log pipelines, terabyte-scale backups on AWS, and the automation around them. At [One2N](https://one2n.io) (2022 – 2024) I did this for a multi-tenant security platform.
 
-- 🌱 Currently diving into **Cloud Computing** and **Kubernetes**.
-- 🛠 Passionate about crafting **distributed systems** and **Product Engineering**.
-- ✨ Practitioner of **DevOps principles** and **Automation** to enhance developer workflows.
+> [!TIP]
+> **Open to DevOps, SRE and Platform Engineering roles.** The quickest way to reach me is [LinkedIn](https://in.linkedin.com/in/hrithik-sawant-740a46183).
 
-## ⭐ Featured work
+## At a glance
 
-- **[Backup and recovery for SIEM data at terabyte scale](https://one2n.io/case-studies/backup-and-recovery-solution-for-siem-data-at-terabyte-scale)**: an automated, tenant-aware backup and restore pipeline handling 1.5 TB a day for 100+ tenants, for under $200 a month on AWS. One2N case study.
-- **[Routing sensitive logs to a Syslog server with Log4j2](https://one2n.io/blog/routing-sensitive-logs)**: a blog post I wrote on separating sensitive logs from the main stream.
-- **[aws-examples](https://github.com/HrithikSawant/aws-examples)**: hands-on AWS exercises covering S3, VPC, IAM, EC2, STS, Route 53 and gateways.
-- **[Portfolio and blog](https://hrithiksawant.github.io)**: more about my work as a DevOps / SRE engineer.
+| 1.5 TB | 100+ | under $200 | since Jan 2023 |
+|:---:|:---:|:---:|:---:|
+| of SIEM data backed up per day | tenants with automated backup and restore | monthly running cost on AWS | running in production |
 
-## 🛠 Skills
+## Featured work
 
-### Frontend
+### Backup and recovery for SIEM data at terabyte scale
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+A managed security provider needed a cheaper, customisable and fully automated backup process for its SIEM platform. I designed and built it on my own in about four months. [Read the One2N case study](https://one2n.io/case-studies/backup-and-recovery-solution-for-siem-data-at-terabyte-scale).
 
-### Backend
+```mermaid
+flowchart LR
+    subgraph SIEM["SIEM platform"]
+        O["Orchestration nodes<br/>configuration"]
+        D["Data nodes<br/>events and logs"]
+    end
+    O -->|"tar file, Bash upload"| S3A[("S3 Standard")]
+    D -->|scp| N["NFS server"]
+    N --> P["Processing server<br/>tar tenant directories"]
+    P -->|"parallel, bandwidth-capped upload"| S3B[("S3 Glacier Deep Archive")]
+```
 
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+<details>
+<summary><b>Design decisions</b></summary>
 
-### DevOps & Cloud
+<br>
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnubash&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![NFS](https://img.shields.io/badge/NFS-%23FF9900.svg?style=for-the-badge&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-%23623C3C.svg?style=for-the-badge&logo=terraform&logoColor=white)
+- **Protect production first.** Packaging and upload originally ran on the data nodes and drove up CPU and disk IO, so I moved that work to an NFS server and a separate processing server.
+- **Cap the network impact.** Uploads use the AWS CLI bandwidth limit over a dedicated network path, so 1.5 TB a day doesn't compete with live traffic.
+- **Use the link fully.** Uploads run in 10 parallel sessions instead of one file at a time, and the pipeline stages overlap.
+- **Keep disks from filling.** The pipeline checks free space during copy and archive steps, and cleans up after each upload.
+- **Keep storage cheap.** Event data goes to Glacier Deep Archive and configuration to S3 Standard, with lifecycle rules for retention, default bucket retention and versioning.
+- **Make restore routine.** A restore script runs the same path in reverse and puts data back into each tenant's own directory structure.
 
-### Tools
+</details>
 
-![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Intellij](https://img.shields.io/badge/Intellij-2C2255?style=for-the-badge&logo=Intellij&logoColor=white)
-![POSTMAN](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
-![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
+### More work
 
-### Others
+| Project | What it is | Stack |
+|:--|:--|:--|
+| **Log-ingestion middleware** | A layer that decouples log producers from consumers, improving throughput and reliability of security log pipelines | Spring Boot, Apache Kafka |
+| **[Routing sensitive logs to Syslog](https://one2n.io/blog/routing-sensitive-logs)** | A blog post I wrote on separating sensitive logs from the main stream with Log4j2 appenders and central configuration instead of code changes | Java, Log4j2, Syslog |
+| **[aws-examples](https://github.com/HrithikSawant/aws-examples)** | Public, hands-on AWS exercises: S3, VPC, IAM least-privilege policies, EC2, STS, Route 53 and gateways | AWS, AWS CLI |
 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+## Experience
 
----
+| | |
+|:--|:--|
+| **2022 – 2024** | **Software Engineer, [One2N](https://one2n.io)** (remote). Built the Kafka log pipeline and the SIEM backup and recovery system, automated tenant-aware restores, and helped run a 100+ tenant environment. |
+| **2022** | **Software Engineer Intern, One2N.** Spring Boot application with role-based access control and JWT-secured APIs, built test-first. |
 
-## 📈 Profile Stats
+## Toolbox
 
-[![Hrithik Sawant's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=HrithikSawant&bg_color=0d1117&color=56c3ff&line=8d87f7&point=ffcb00&area=true&hide_border=true&theme=radical)](https://github.com/HrithikSawant)
+<details>
+<summary><b>What I work with</b></summary>
 
-[![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=HrithikSawant&layout=compact&theme=radical)](https://github.com/HrithikSawant)
+<br>
 
-### Today's Thought
+| Area | Tools |
+|:--|:--|
+| Cloud | AWS (EC2, S3, VPC, IAM, Route 53, API Gateway, STS), Linux |
+| Containers | Docker, Docker Compose, Kubernetes |
+| Infrastructure as code | Terraform, Crossplane, Ansible |
+| Observability | Prometheus, Grafana, Loki |
+| CI/CD | GitHub Actions, Bash |
+| Languages | Go, Python, Java |
+| Data and backend | Kafka, Spring Boot, PostgreSQL, FastAPI |
 
-![Quote generator](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</details>
+
+## Next
+
+Building out my home lab (Kubernetes, Prometheus, Grafana, Loki, Crossplane, Terraform) and publishing the code and write-ups.
+
+<br>
+
+<div align="center">
+
+[Portfolio and blog](https://hrithiksawant.github.io) · [LinkedIn](https://in.linkedin.com/in/hrithik-sawant-740a46183) · [iximiuz Labs](https://labs.iximiuz.com/u/hrithiksawant)
+
+</div>
