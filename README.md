@@ -15,7 +15,7 @@ Mumbai, India · open to remote
 
 <br>
 
-I build and operate the infrastructure that keeps data pipelines reliable: Kafka log pipelines, terabyte-scale backups on AWS, and the automation around them. At [One2N](https://one2n.io) (2022 – 2024) I did this for a multi-tenant security platform.
+I build and operate the infrastructure that keeps data pipelines reliable, from terabyte-scale backups on AWS to the automation that runs them, for a multi-tenant security platform. Comfortable picking up any CNCF project.
 
 > [!TIP]
 > **Open to DevOps, SRE and Platform Engineering roles.** The quickest way to reach me is [LinkedIn](https://in.linkedin.com/in/hrithik-sawant-740a46183).
@@ -44,26 +44,13 @@ flowchart LR
     P -->|"parallel, bandwidth-capped upload"| S3B[("S3 Glacier Deep Archive")]
 ```
 
-<details>
-<summary><b>Design decisions</b></summary>
-
-<br>
-
-- **Protect production first.** Packaging and upload originally ran on the data nodes and drove up CPU and disk IO, so I moved that work to an NFS server and a separate processing server.
-- **Cap the network impact.** Uploads use the AWS CLI bandwidth limit over a dedicated network path, so 1.5 TB a day doesn't compete with live traffic.
-- **Use the link fully.** Uploads run in 10 parallel sessions instead of one file at a time, and the pipeline stages overlap.
-- **Keep disks from filling.** The pipeline checks free space during copy and archive steps, and cleans up after each upload.
-- **Keep storage cheap.** Event data goes to Glacier Deep Archive and configuration to S3 Standard, with lifecycle rules for retention, default bucket retention and versioning.
-- **Make restore routine.** A restore script runs the same path in reverse and puts data back into each tenant's own directory structure.
-
-</details>
-
 ### More work
 
 | Project | What it is | Stack |
 |:--|:--|:--|
 | **Log-ingestion middleware** | A layer that decouples log producers from consumers, improving throughput and reliability of security log pipelines | Spring Boot, Apache Kafka |
-| **[Routing sensitive logs to Syslog](https://one2n.io/blog/routing-sensitive-logs)** | A blog post I wrote on separating sensitive logs from the main stream with Log4j2 appenders and central configuration instead of code changes | Java, Log4j2, Syslog |
+| **[Log-Routing-App](https://github.com/HrithikSawant/Log-Routing-App)** | A service that sends selected logs to a Syslog server and the rest to the console, set up through Log4j2 and run with Docker. The code behind my blog post, [Routing sensitive logs to Syslog](https://one2n.io/blog/routing-sensitive-logs) | Java, Spring Boot, Log4j2, Docker |
+| **[customer-data-pipeline](https://github.com/HrithikSawant/customer-data-pipeline)** | A containerised ETL pipeline: a Flask mock source, a FastAPI ingestion service that upserts paginated records, and PostgreSQL, all run with Docker Compose | Python, FastAPI, PostgreSQL, Docker Compose |
 | **[aws-examples](https://github.com/HrithikSawant/aws-examples)** | Public, hands-on AWS exercises: S3, VPC, IAM least-privilege policies, EC2, STS, Route 53 and gateways | AWS, AWS CLI |
 
 ## Experience
@@ -72,29 +59,6 @@ flowchart LR
 |:--|:--|
 | **2022 – 2024** | **Software Engineer, [One2N](https://one2n.io)** (remote). Built the Kafka log pipeline and the SIEM backup and recovery system, automated tenant-aware restores, and helped run a 100+ tenant environment. |
 | **2022** | **Software Engineer Intern, One2N.** Spring Boot application with role-based access control and JWT-secured APIs, built test-first. |
-
-## Toolbox
-
-<details>
-<summary><b>What I work with</b></summary>
-
-<br>
-
-| Area | Tools |
-|:--|:--|
-| Cloud | AWS (EC2, S3, VPC, IAM, Route 53, API Gateway, STS), Linux |
-| Containers | Docker, Docker Compose, Kubernetes |
-| Infrastructure as code | Terraform, Crossplane, Ansible |
-| Observability | Prometheus, Grafana, Loki |
-| CI/CD | GitHub Actions, Bash |
-| Languages | Go, Python, Java |
-| Data and backend | Kafka, Spring Boot, PostgreSQL, FastAPI |
-
-</details>
-
-## Next
-
-Building out my home lab (Kubernetes, Prometheus, Grafana, Loki, Crossplane, Terraform) and publishing the code and write-ups.
 
 <br>
 
