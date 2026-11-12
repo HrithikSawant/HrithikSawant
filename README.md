@@ -1,6 +1,7 @@
 # Hey 👋, I'm [Hrithik!](https://github.com/HrithikSawant/)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/hrithik-sawant-740a46183)
+[![Website](https://img.shields.io/badge/Website-hrithiksawant.github.io-0A66C2.svg?style=for-the-badge&logo=githubpages&logoColor=white)](https://hrithiksawant.github.io)
 [![Devpost](https://img.shields.io/badge/Devpost-%23003E54.svg?style=for-the-badge&logo=devpost&logoColor=white)](https://devpost.com/HrithikSawant)
 [![X (Twitter)](https://img.shields.io/badge/X-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Hrithiks_)
 
@@ -13,6 +14,13 @@
 - 🌱 Currently diving into **Cloud Computing** and **Kubernetes**.
 - 🛠 Passionate about crafting **distributed systems** and **Product Engineering**.
 - ✨ Practitioner of **DevOps principles** and **Automation** to enhance developer workflows.
+
+## ⭐ Featured work
+
+- **[Backup and recovery for SIEM data at terabyte scale](https://one2n.io/case-studies/backup-and-recovery-solution-for-siem-data-at-terabyte-scale)**: an automated, tenant-aware backup and restore pipeline handling 1.5 TB a day for 100+ tenants, for under $200 a month on AWS. One2N case study.
+- **[Routing sensitive logs to a Syslog server with Log4j2](https://one2n.io/blog/routing-sensitive-logs)**: a blog post I wrote on separating sensitive logs from the main stream.
+- **[aws-examples](https://github.com/HrithikSawant/aws-examples)**: hands-on AWS exercises covering S3, VPC, IAM, EC2, STS, Route 53 and gateways.
+- **[Portfolio and blog](https://hrithiksawant.github.io)**: more about my work as a DevOps / SRE engineer.
 
 ## 🛠 Skills
 
