@@ -51,6 +51,7 @@ flowchart LR
 | **Log-ingestion middleware** | A layer that decouples log producers from consumers, improving throughput and reliability of security log pipelines | Spring Boot, Apache Kafka |
 | **[Log-Routing-App](https://github.com/HrithikSawant/Log-Routing-App)** | A service that sends selected logs to a Syslog server and the rest to the console, set up through Log4j2 and run with Docker. The code behind my blog post, [Routing sensitive logs to Syslog](https://one2n.io/blog/routing-sensitive-logs) | Java, Spring Boot, Log4j2, Docker |
 | **[customer-data-pipeline](https://github.com/HrithikSawant/customer-data-pipeline)** | A containerised ETL pipeline: a Flask mock source, a FastAPI ingestion service that upserts paginated records, and PostgreSQL, all run with Docker Compose | Python, FastAPI, PostgreSQL, Docker Compose |
+| **Voting app on Kubernetes** | A Helm chart that deploys a microservices voting app: vote and result UIs and APIs, a worker, Redis and PostgreSQL, or NATS as a lighter backend. Includes optional ingress with TLS through cert-manager, secrets from external stores, hardened pods and per-environment Helmfile releases | Kubernetes, Helm, Helmfile, Redis, PostgreSQL, NATS |
 | **[aws-examples](https://github.com/HrithikSawant/aws-examples)** | Public, hands-on AWS exercises: S3, VPC, IAM least-privilege policies, EC2, STS, Route 53 and gateways | AWS, AWS CLI |
 
 ## Experience
